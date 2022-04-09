@@ -6,7 +6,7 @@ import GifGrid from './components/GifGrid'
 import React from 'react'
 
 const GifApp = () => {
-  const [categories, setCategories] = useState(['One Punch'])
+  const [categories, setCategories] = useState(['Hello world'])
 
   return (
     <div className='flex flex-col justify-center align-center text-center mx-auto'>
