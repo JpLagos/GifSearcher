@@ -11,7 +11,7 @@ const GifApp = () => {
   return (
     <div className='flex flex-col justify-center align-center text-center mx-auto'>
       <div className='bg-darkblue'>
-        <h1 className='p-3 text-3xl font-biz font-semibold text-slate-200'>Gif Searcher <span className='text-red-600'>App</span></h1>
+        <h1 className='p-3 text-3xl font-biz font-semibold text-slate-200'>Gif <span className='text-red-600'>App</span></h1>
         <h2 className='p-3 text-xl font-biz font-semibold text-slate-200'>Write something and let's find it!</h2>
         <AddCategory setCategories={ setCategories }/>
       </div>
